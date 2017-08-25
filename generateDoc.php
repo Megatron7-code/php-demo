@@ -1,3 +1,5 @@
+<?php
+
 class GenerateDoc{
     protected static $_dbh = null; //静态属性,所有数据库实例共用,避免重复连接数据库
     protected $_dbType = 'mysql';
